@@ -10,8 +10,8 @@ package scala.tools.jline.console;
 
 import org.junit.Test;
 
-import static jline.console.Operation.BACKWARD_WORD;
-import static jline.console.Operation.*;
+import static scala.tools.jline.console.Operation.BACKWARD_WORD;
+import static scala.tools.jline.console.Operation.*;
 
 /**
  * Tests various features of editing lines.

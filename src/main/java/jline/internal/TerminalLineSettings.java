@@ -17,7 +17,7 @@ import java.text.MessageFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Provides access to terminal line settings via <tt>stty</tt>.

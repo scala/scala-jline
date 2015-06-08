@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.console;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * A holder for a {@link StringBuilder} that also contains the current cursor position.

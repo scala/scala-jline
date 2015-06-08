@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.console.completer;
 
-import jline.internal.Log;
+import scala.tools.jline.internal.Log;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * A {@link Completer} implementation that invokes a child completer using the appropriate <i>separator</i> argument.

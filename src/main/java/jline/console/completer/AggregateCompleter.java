@@ -14,7 +14,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Completer which contains multiple completers and aggregates them together.

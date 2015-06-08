@@ -8,8 +8,8 @@
  */
 package scala.tools.jline.readline;
 
-import jline.console.KeyMap;
-import jline.console.Operation;
+import scala.tools.jline.console.KeyMap;
+import scala.tools.jline.console.Operation;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

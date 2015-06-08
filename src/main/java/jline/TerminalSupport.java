@@ -12,9 +12,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import jline.internal.Log;
-import jline.internal.ShutdownHooks;
-import jline.internal.ShutdownHooks.Task;
+import scala.tools.jline.internal.Log;
+import scala.tools.jline.internal.ShutdownHooks;
+import scala.tools.jline.internal.ShutdownHooks.Task;
 
 /**
  * Provides support for {@link Terminal} instances.

@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.console.completer;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * {@link Completer} for {@link Enum} names.

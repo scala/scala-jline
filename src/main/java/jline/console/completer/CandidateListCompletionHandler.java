@@ -8,8 +8,8 @@
  */
 package scala.tools.jline.console.completer;
 
-import jline.console.ConsoleReader;
-import jline.console.CursorBuffer;
+import scala.tools.jline.console.ConsoleReader;
+import scala.tools.jline.console.CursorBuffer;
 
 import java.io.IOException;
 import java.util.ArrayList;

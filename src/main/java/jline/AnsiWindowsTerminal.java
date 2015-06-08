@@ -8,7 +8,7 @@
  */
 package scala.tools.jline;
 
-import jline.internal.Configuration;
+import scala.tools.jline.internal.Configuration;
 import org.fusesource.jansi.AnsiConsole;
 import org.fusesource.jansi.AnsiOutputStream;
 import org.fusesource.jansi.WindowsAnsiOutputStream;

@@ -8,9 +8,9 @@
  */
 package scala.tools.jline.console.completer;
 
-import jline.console.ConsoleReaderTestSupport;
-import jline.console.completer.ArgumentCompleter;
-import jline.console.completer.StringsCompleter;
+import scala.tools.jline.console.ConsoleReaderTestSupport;
+import scala.tools.jline.console.completer.ArgumentCompleter;
+import scala.tools.jline.console.completer.StringsCompleter;
 import org.junit.Test;
 
 /**

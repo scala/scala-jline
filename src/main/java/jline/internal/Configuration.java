@@ -17,7 +17,7 @@ import java.nio.charset.Charset;
 import java.util.Map;
 import java.util.Properties;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Provides access to configuration values.

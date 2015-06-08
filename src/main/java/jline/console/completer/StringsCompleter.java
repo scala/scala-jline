@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Completer for a set of strings.

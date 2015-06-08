@@ -8,11 +8,11 @@
  */
 package scala.tools.jline.console.internal;
  
-import jline.console.ConsoleReader;
-import jline.console.completer.ArgumentCompleter;
-import jline.console.completer.Completer;
-import jline.console.history.FileHistory;
-import jline.internal.Configuration;
+import scala.tools.jline.console.ConsoleReader;
+import scala.tools.jline.console.completer.ArgumentCompleter;
+import scala.tools.jline.console.completer.Completer;
+import scala.tools.jline.console.history.FileHistory;
+import scala.tools.jline.internal.Configuration;
 
 import java.io.File;
 import java.lang.reflect.Method;

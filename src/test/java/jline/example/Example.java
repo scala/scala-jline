@@ -13,10 +13,10 @@ import java.io.PrintWriter;
 import java.util.LinkedList;
 import java.util.List;
 
-import jline.console.ConsoleReader;
-import jline.console.completer.Completer;
-import jline.console.completer.FileNameCompleter;
-import jline.console.completer.StringsCompleter;
+import scala.tools.jline.console.ConsoleReader;
+import scala.tools.jline.console.completer.Completer;
+import scala.tools.jline.console.completer.FileNameCompleter;
+import scala.tools.jline.console.completer.StringsCompleter;
 
 public class Example
 {

@@ -38,23 +38,23 @@ import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.Stack;
 
-import jline.Terminal;
-import jline.TerminalFactory;
-import jline.UnixTerminal;
-import jline.console.completer.CandidateListCompletionHandler;
-import jline.console.completer.Completer;
-import jline.console.completer.CompletionHandler;
-import jline.console.history.History;
-import jline.console.history.MemoryHistory;
-import jline.internal.Configuration;
-import jline.internal.InputStreamReader;
-import jline.internal.Log;
-import jline.internal.NonBlockingInputStream;
-import jline.internal.Nullable;
-import jline.internal.Urls;
+import scala.tools.jline.Terminal;
+import scala.tools.jline.TerminalFactory;
+import scala.tools.jline.UnixTerminal;
+import scala.tools.jline.console.completer.CandidateListCompletionHandler;
+import scala.tools.jline.console.completer.Completer;
+import scala.tools.jline.console.completer.CompletionHandler;
+import scala.tools.jline.console.history.History;
+import scala.tools.jline.console.history.MemoryHistory;
+import scala.tools.jline.internal.Configuration;
+import scala.tools.jline.internal.InputStreamReader;
+import scala.tools.jline.internal.Log;
+import scala.tools.jline.internal.NonBlockingInputStream;
+import scala.tools.jline.internal.Nullable;
+import scala.tools.jline.internal.Urls;
 import org.fusesource.jansi.AnsiOutputStream;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * A reader for console applications. It supports custom tab-completion,

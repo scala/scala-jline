@@ -13,17 +13,17 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import jline.internal.Configuration;
-import jline.internal.Log;
+import scala.tools.jline.internal.Configuration;
+import scala.tools.jline.internal.Log;
 import org.fusesource.jansi.internal.WindowsSupport;
 import org.fusesource.jansi.internal.Kernel32;
 import static org.fusesource.jansi.internal.Kernel32.*;
 
-import static jline.WindowsTerminal.ConsoleMode.ENABLE_ECHO_INPUT;
-import static jline.WindowsTerminal.ConsoleMode.ENABLE_LINE_INPUT;
-import static jline.WindowsTerminal.ConsoleMode.ENABLE_PROCESSED_INPUT;
-import static jline.WindowsTerminal.ConsoleMode.ENABLE_WINDOW_INPUT;
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.WindowsTerminal.ConsoleMode.ENABLE_ECHO_INPUT;
+import static scala.tools.jline.WindowsTerminal.ConsoleMode.ENABLE_LINE_INPUT;
+import static scala.tools.jline.WindowsTerminal.ConsoleMode.ENABLE_PROCESSED_INPUT;
+import static scala.tools.jline.WindowsTerminal.ConsoleMode.ENABLE_WINDOW_INPUT;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Terminal implementation for Microsoft Windows. Terminal initialization in

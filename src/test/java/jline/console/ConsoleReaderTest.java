@@ -14,16 +14,16 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import jline.TerminalFactory;
-import jline.WindowsTerminal;
-import jline.console.history.History;
-import jline.console.history.MemoryHistory;
-import jline.internal.Configuration;
+import scala.tools.jline.TerminalFactory;
+import scala.tools.jline.WindowsTerminal;
+import scala.tools.jline.console.history.History;
+import scala.tools.jline.console.history.MemoryHistory;
+import scala.tools.jline.internal.Configuration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static jline.console.ConsoleReaderTest.WindowsKey.*;
+import static scala.tools.jline.console.ConsoleReaderTest.WindowsKey.*;
 import static org.junit.Assert.*;
 import static org.junit.Assume.*;
 

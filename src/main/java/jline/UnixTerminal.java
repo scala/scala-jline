@@ -8,8 +8,8 @@
  */
 package scala.tools.jline;
 
-import jline.internal.Log;
-import jline.internal.TerminalLineSettings;
+import scala.tools.jline.internal.Log;
+import scala.tools.jline.internal.TerminalLineSettings;
 
 /**
  * Terminal that is used for unix platforms. Terminal initialization

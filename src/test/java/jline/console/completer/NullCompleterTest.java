@@ -8,8 +8,8 @@
  */
 package scala.tools.jline.console.completer;
 
-import jline.console.ConsoleReaderTestSupport;
-import jline.console.completer.NullCompleter;
+import scala.tools.jline.console.ConsoleReaderTestSupport;
+import scala.tools.jline.console.completer.NullCompleter;
 import org.junit.Test;
 
 /**

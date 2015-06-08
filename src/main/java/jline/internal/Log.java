@@ -10,7 +10,7 @@ package scala.tools.jline.internal;
 
 import java.io.PrintStream;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Internal logger.

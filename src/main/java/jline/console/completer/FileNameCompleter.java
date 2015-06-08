@@ -8,12 +8,12 @@
  */
 package scala.tools.jline.console.completer;
 
-import jline.internal.Configuration;
+import scala.tools.jline.internal.Configuration;
 
 import java.io.File;
 import java.util.List;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * A file name completer takes the buffer and issues a list of

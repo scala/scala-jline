@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.console.internal;
  
-import jline.console.ConsoleReader;
+import scala.tools.jline.console.ConsoleReader;
  
 import java.io.IOException;
 import java.io.InputStream;

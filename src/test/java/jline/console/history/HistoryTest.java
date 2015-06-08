@@ -8,11 +8,11 @@
  */
 package scala.tools.jline.console.history;
 
-import jline.console.ConsoleReaderTestSupport;
-import jline.console.KeyMap;
+import scala.tools.jline.console.ConsoleReaderTestSupport;
+import scala.tools.jline.console.KeyMap;
 import org.junit.Test;
 
-import static jline.console.Operation.*;
+import static scala.tools.jline.console.Operation.*;
 
 /**
  * Tests command history.

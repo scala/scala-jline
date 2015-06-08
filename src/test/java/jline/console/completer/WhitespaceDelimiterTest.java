@@ -9,9 +9,9 @@
 package scala.tools.jline.console.completer;
 
 import static org.junit.Assert.assertArrayEquals;
-import jline.console.ConsoleReaderTestSupport;
-import jline.console.completer.ArgumentCompleter.ArgumentList;
-import jline.console.completer.ArgumentCompleter.WhitespaceArgumentDelimiter;
+import scala.tools.jline.console.ConsoleReaderTestSupport;
+import scala.tools.jline.console.completer.ArgumentCompleter.ArgumentList;
+import scala.tools.jline.console.completer.ArgumentCompleter.WhitespaceArgumentDelimiter;
 
 import org.junit.Before;
 import org.junit.Test;

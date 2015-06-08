@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import jline.internal.Log;
+import scala.tools.jline.internal.Log;
 
 /**
  * @author Ståle W. Pedersen <stale.pedersen@jboss.org>

@@ -8,8 +8,8 @@
  */
 package scala.tools.jline.console;
 
-import static jline.console.Operation.*;
-import jline.console.history.History;
+import static scala.tools.jline.console.Operation.*;
+import scala.tools.jline.console.history.History;
 
 import org.junit.Before;
 import org.junit.Test;

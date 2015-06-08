@@ -12,11 +12,11 @@ import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-import jline.internal.Configuration;
-import jline.internal.Log;
-import jline.internal.Preconditions;
+import scala.tools.jline.internal.Configuration;
+import scala.tools.jline.internal.Log;
+import scala.tools.jline.internal.Preconditions;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * Creates terminal instances.

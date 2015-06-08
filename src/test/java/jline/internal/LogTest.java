@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.internal;
 
-import jline.internal.Log.Level;
+import scala.tools.jline.internal.Log.Level;
 import org.junit.Before;
 import org.junit.Test;
 

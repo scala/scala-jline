@@ -20,9 +20,9 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.Reader;
 
-import jline.internal.Log;
+import scala.tools.jline.internal.Log;
 
-import static jline.internal.Preconditions.checkNotNull;
+import static scala.tools.jline.internal.Preconditions.checkNotNull;
 
 /**
  * {@link History} using a file for persistent backing.

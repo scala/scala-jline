@@ -8,7 +8,7 @@
  */
 package scala.tools.jline.console;
 
-import static jline.console.Operation.*;
+import static scala.tools.jline.console.Operation.*;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
