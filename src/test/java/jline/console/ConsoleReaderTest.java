@@ -535,7 +535,7 @@ public class ConsoleReaderTest
 
     @Test
     public void testInput() throws Exception {
-        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/jline/internal/config1").toExternalForm());
+        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/scala/tools/jline/internal/config1").toExternalForm());
         try {
             ConsoleReader consoleReader = createConsole("\u0018(foo\u0018)\u0018e\r\n");
             assertNotNull(consoleReader);
@@ -554,7 +554,7 @@ public class ConsoleReaderTest
 
     @Test
     public void testInput2() throws Exception {
-        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/jline/internal/config2").toExternalForm());
+        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/scala/tools/jline/internal/config2").toExternalForm());
         try {
             ConsoleReader consoleReader = createConsole("Bash", new byte[0]);
             assertNotNull(consoleReader);
@@ -567,7 +567,7 @@ public class ConsoleReaderTest
 
     @Test
     public void testInputBadConfig() throws Exception {
-        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/jline/internal/config-bad").toExternalForm());
+        System.setProperty(ConsoleReader.JLINE_INPUTRC, getClass().getResource("/scala/tools/jline/internal/config-bad").toExternalForm());
         try {
             ConsoleReader consoleReader = createConsole("Bash", new byte[0]);
             assertNotNull(consoleReader);
