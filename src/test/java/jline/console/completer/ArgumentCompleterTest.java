@@ -14,7 +14,7 @@ import scala.tools.jline.console.completer.StringsCompleter;
 import org.junit.Test;
 
 /**
- * Tests for {@link jline.console.completer.ArgumentCompleter}.
+ * Tests for {@link scala.tools.jline.console.completer.ArgumentCompleter}.
  *
  * @author <a href="mailto:mwp1@cornell.edu">Marc Prud'hommeaux</a>
  */

@@ -44,7 +44,7 @@ import static scala.tools.jline.internal.Preconditions.checkNotNull;
  * directly invoke the readc() method in the JNI library. This is so the class
  * can read special keys (like arrow keys) which are otherwise inaccessible via
  * the {@link System#in} stream. Using JNI reading can be bypassed by setting
- * the <code>jline.WindowsTerminal.directConsole</code> system property
+ * the <code>scala.tools.jline.WindowsTerminal.directConsole</code> system property
  * to <code>false</code>.
  * </p>
  *

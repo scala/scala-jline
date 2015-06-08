@@ -60,7 +60,7 @@ import static scala.tools.jline.internal.Preconditions.checkNotNull;
  * A reader for console applications. It supports custom tab-completion,
  * saveable command history, and command line editing. On some platforms,
  * platform-specific commands will need to be issued before the reader will
- * function properly. See {@link jline.Terminal#init} for convenience
+ * function properly. See {@link scala.tools.jline.Terminal#init} for convenience
  * methods for issuing platform-specific setup commands.
  *
  * @author <a href="mailto:mwp1@cornell.edu">Marc Prud'hommeaux</a>
@@ -3206,9 +3206,9 @@ public class ConsoleReader
     private CompletionHandler completionHandler = new CandidateListCompletionHandler();
 
     /**
-     * Add the specified {@link jline.console.completer.Completer} to the list of handlers for tab-completion.
+     * Add the specified {@link scala.tools.jline.console.completer.Completer} to the list of handlers for tab-completion.
      *
-     * @param completer the {@link jline.console.completer.Completer} to add
+     * @param completer the {@link scala.tools.jline.console.completer.Completer} to add
      * @return true if it was successfully added
      */
     public boolean addCompleter(final Completer completer) {
@@ -3216,7 +3216,7 @@ public class ConsoleReader
     }
 
     /**
-     * Remove the specified {@link jline.console.completer.Completer} from the list of handlers for tab-completion.
+     * Remove the specified {@link scala.tools.jline.console.completer.Completer} from the list of handlers for tab-completion.
      *
      * @param completer     The {@link Completer} to remove
      * @return              True if it was successfully removed
