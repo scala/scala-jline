@@ -11,4 +11,4 @@
  *
  * @since 2.0
  */
-package jline.console.history;
+package scala.tools.jline.console.history;

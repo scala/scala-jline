@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.internal;
+package scala.tools.jline.internal;
 
 import jline.internal.Log.Level;
 import org.junit.Before;

@@ -11,4 +11,4 @@
  *
  * @since 2.3
  */
-package jline.console.completer;
+package scala.tools.jline.console.completer;

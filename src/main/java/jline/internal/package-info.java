@@ -11,4 +11,4 @@
  *
  * @since 2.0
  */
-package jline.internal;
+package scala.tools.jline.internal;

@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.readline;
+package scala.tools.jline.readline;
 
 import jline.console.KeyMap;
 import jline.console.Operation;

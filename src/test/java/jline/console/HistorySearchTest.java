@@ -1,4 +1,4 @@
-package jline.console;
+package scala.tools.jline.console;
 
 import jline.console.history.MemoryHistory;
 import org.junit.Before;

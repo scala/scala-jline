@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.console.history;
+package scala.tools.jline.console.history;
 
 import java.util.Iterator;
 import java.util.ListIterator;

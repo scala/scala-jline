@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline;
+package scala.tools.jline;
 
 import org.junit.After;
 import org.junit.Before;

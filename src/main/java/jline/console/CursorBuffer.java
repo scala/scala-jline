@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.console;
+package scala.tools.jline.console;
 
 import static jline.internal.Preconditions.checkNotNull;
 

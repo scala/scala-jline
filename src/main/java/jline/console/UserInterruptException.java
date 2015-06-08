@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.console;
+package scala.tools.jline.console;
 
 /**
  * This exception is thrown by {@link ConsoleReader#readLine} when

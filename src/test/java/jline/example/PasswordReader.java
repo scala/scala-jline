@@ -7,7 +7,7 @@
  * http://www.opensource.org/licenses/bsd-license.php
  */
 
-package jline.example;
+package scala.tools.jline.example;
 
 import jline.console.ConsoleReader;
 

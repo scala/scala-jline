@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.console;
+package scala.tools.jline.console;
 
 /**
  * The kill ring class keeps killed text in a fixed size ring. In this

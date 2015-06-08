@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.console.completer;
+package scala.tools.jline.console.completer;
 
 import jline.console.ConsoleReader;
 import jline.console.CursorBuffer;

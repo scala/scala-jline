@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline;
+package scala.tools.jline;
 
 import java.io.FileDescriptor;
 import java.io.FileInputStream;

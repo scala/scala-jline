@@ -6,7 +6,7 @@
  *
  * http://www.opensource.org/licenses/bsd-license.php
  */
-package jline.internal;
+package scala.tools.jline.internal;
 
 // Some bits lifted from Guava's ( http://code.google.com/p/guava-libraries/ ) Preconditions.
 
