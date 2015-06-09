@@ -8,6 +8,42 @@
     http://www.opensource.org/licenses/bsd-license.php
 
 -->
+
+# A fork of JLine for the Scala Compiler
+
+[<img src="https://img.shields.io/travis/scala/scala-jline.svg"/>](https://travis-ci.org/scala/scala-jline)
+[<img src="https://img.shields.io/maven-central/v/org.scala-lang.modules/scala-jline.svg"/>](http://search.maven.org/#search%7Cga%7C1%7Cg%3Aorg.scala-lang.modules%20a%3Ascala-jline)
+
+This repository contains a fork of [JLine](https://github.com/jline/jline2) for the Scala compiler.
+The reason for using a fork is to avoid polluting the classpath of programs that embed the Scala compiler or REPL.
+This fork therefore changes the package name for JLine to `scala.tools.jline`.
+
+Releases of this fork are under the group id `"org.scala-lang.modules" % "scala-jline"`.
+
+## Patches
+
+The patches applied to this fork can be [inspected here](https://github.com/jline/jline2/compare/master...scala:scala-jline).
+Take a look at the individual commit messages for commands that were used to create the patch.
+
+Note that the `.java` source files are not moved to folders representing the new package name.
+This simplifies integrating changes from the upstream repository.
+Resource files (`src/main/resources`, `src/test/resources`) on the other hand needed to be moved so that they are copied to the right target directory.
+
+## Branches
+
+The `master` branch in this fork is always kept in synch with the upstream `master` branch.
+The patches for re-packaging are in the `scala-jline` branch.
+
+## Tags
+
+The upstream repository uses tags of the form `jline-2.12.1`.
+For our releases of scala-jline, we are using tags of the form `v2.12.1`.
+These tags mark revisions in the `scala-jline` branch.
+
+When building a v-shaped tag, the travis build script stages a release on sonatype.
+
+# Upstream README
+
 Description
 -----------
 
