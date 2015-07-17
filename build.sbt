@@ -26,3 +26,19 @@ javacOptions in doc := Seq("-source", "1.5")
 scalaModuleOsgiSettings
 
 OsgiKeys.exportPackage := Seq(s"scala.tools.jline.*;version=${version.value}")
+
+// exclude some files, same patterns as in `pom.xml`
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", "maven", _ @ _*) =>
+    MergeStrategy.discard
+
+  case PathList(ps @ _*) if ps.last endsWith ".txt" =>
+    MergeStrategy.discard
+
+  case PathList("org", "fusesource", "hawtjni", "runtime", p) if p.startsWith("Jni") || p.contains("Flag") || p.startsWith("T32") || p.startsWith("NativeStats") =>
+    MergeStrategy.discard
+
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
+}
